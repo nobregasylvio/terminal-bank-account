@@ -21,4 +21,14 @@ public class ContaTerminal {
       System.out.print("Digite o número da Conta: ");
       scan.next();
     }
+
+    int numero = scan.nextInt();
+    scan.nextLine();
+
+    System.out.print("Digite o número da Agência com o digito: ");
+    String agencia = scan.nextLine();
+
+    System.out.print("Digite o seu nome: ");
+    String nome = scan.nextLine();
+
 }
