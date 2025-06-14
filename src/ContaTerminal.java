@@ -31,4 +31,13 @@ public class ContaTerminal {
     System.out.print("Digite o seu nome: ");
     String nome = scan.nextLine();
 
+    System.out.print("Digite o Saldo da conta: ");
+    while (!scan.hasNextDouble()) {
+      System.out.println("Por favor, insira um Saldo válido!");
+      System.out.print("Digite o Saldo da conta: ");
+      scan.next();
+    }
+    double saldo = scan.nextDouble();
+
+  }
 }
