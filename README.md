@@ -20,12 +20,14 @@ Ao final, é exibida uma mensagem formatada confirmando os dados inseridos.
 
 ## 📋 Exemplo de uso
 
+```
 Digite o número da Conta: 1021
 Digite o número da Agência com o dígito: 067-8
 Digite o seu nome: Maria Silva
 Digite o Saldo da conta: 1520.55
 
 Olá Maria Silva, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo 1520.55 já está disponível para saque.
+```
 
 ## 🛠️ Tecnologias utilizadas
 
